@@ -1,6 +1,6 @@
 public class Phone {
     private String Color;
-    private String Col;
+    private int b;
     private String OperatingSystem;
     private Integer BatteryCapacity;
     private Integer ScreenSize;
