@@ -31,5 +31,5 @@ class Main {
         System.out.println(SamsungS20.getMemory());
 
     }
-
+    //test
 }
