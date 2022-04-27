@@ -47,13 +47,21 @@ public class Phone {
         Memory = memory;
     }
 
-    public Phone(String color, String operatingSystem, Integer batteryCapacity, Integer screenSize, Integer memory, Integer camera) {
+    public Integer getCamera() {
+        return Camera;
+    }
+
+    public void setCamera(Integer camera) {
+        Camera = camera;
+    }
+
+    public Phone(String color, String operatingSystem, Integer batteryCapacity, Integer screenSize, Integer memory) {
         Color = color;
         OperatingSystem = operatingSystem;
         BatteryCapacity = batteryCapacity;
         ScreenSize = screenSize;
         Memory = memory;
-        Camera = camera;
+        Camera = Camera;
     }
 
     public Phone() {

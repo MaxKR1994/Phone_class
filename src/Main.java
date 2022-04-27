@@ -20,6 +20,8 @@ class Main {
         IphoneX.setScreenSize(6);
         IphoneX.setMemory(512);
 
+        SamsungS20.setCamera(12);
+
         Store();
         System.out.println(Phone.stock);
         System.out.println(IphoneX.toString());
@@ -29,6 +31,8 @@ class Main {
         System.out.println(Xiaomi12.toString());
         System.out.println(Huawei.toString());
         System.out.println(SamsungS20.getMemory());
+        System.out.println(SamsungS20.getCamera());
+
 
     }
     //test
