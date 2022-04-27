@@ -1,11 +1,10 @@
 public class Phone {
     private String Color;
-    private int b;
     private String OperatingSystem;
     private Integer BatteryCapacity;
     private Integer ScreenSize;
     private Integer Memory;
-
+    private Integer Camera;
     public static String stock;
 
     public String getColor() {
