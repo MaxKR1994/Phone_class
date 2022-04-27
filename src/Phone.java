@@ -47,12 +47,13 @@ public class Phone {
         Memory = memory;
     }
 
-    public Phone(String color, String operatingSystem, Integer batteryCapacity, Integer screenSize, Integer memory) {
-        this.Color = color;
-        this.OperatingSystem = operatingSystem;
-        this.BatteryCapacity = batteryCapacity;
-        this.ScreenSize = screenSize;
-        this.Memory = memory;
+    public Phone(String color, String operatingSystem, Integer batteryCapacity, Integer screenSize, Integer memory, Integer camera) {
+        Color = color;
+        OperatingSystem = operatingSystem;
+        BatteryCapacity = batteryCapacity;
+        ScreenSize = screenSize;
+        Memory = memory;
+        Camera = camera;
     }
 
     public Phone() {
@@ -79,4 +80,14 @@ public class Phone {
                 '}';
     }
 
+    public String toString(String color, String operatingSystem, Integer batteryCapacity, Integer screenSize, Integer memory, Integer camera) {
+        return "Phone{" +
+                "Color='" + Color + '\'' +
+                ", OperatingSystem='" + OperatingSystem + '\'' +
+                ", BatteryCapacity=" + BatteryCapacity +
+                ", ScreenSize=" + ScreenSize +
+                ", Memory=" + Memory +
+                ", Camera=" + Camera +
+                '}';
+    }
 }
